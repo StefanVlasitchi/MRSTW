@@ -1,0 +1,45 @@
+﻿@using System.Web.Optimization
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>eUse System | @ViewBag.Title</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet" type="text/css">
+
+	@Styles.Render("~/bundles/bootstrap.min/css")
+	@Styles.Render("~/bundles/1/css")
+	@Styles.Render("~/bundles/2/css")
+	@Styles.Render("~/bundles/3/css")
+	@Styles.Render("~/bundles/4/css")
+	@Styles.Render("~/bundles/5/css")
+	@Styles.Render("~/bundles/6/css")
+	@Styles.Render("~/bundles/7/css")
+	@Styles.Render("~/bundles/8/css")
+
+	@if (IsSectionDefined("Styles"))
+	{@RenderSection("Styles", required: false)}
+
+	@Styles.Render("~/bundles/main/css")
+</head>
+<body>
+
+     @Html.Partial("_HeaderNav")
+     @Html.Partial("_Test")
+     @Html.Partial("_Course")
+     @Html.Partial("_Control2")
+     @RenderBody()
+     @Scripts.Render("~/bundles/11/js")
+     @Scripts.Render("~/bundles/22/js")
+     @Scripts.Render("~/bundles/33/js")
+     @Scripts.Render("~/bundles/44/js")
+     @Scripts.Render("~/bundles/55/js")
+     @Scripts.Render("~/bundles/66/js")
+     @Scripts.Render("~/bundles/77/js")
+     @Scripts.Render("~/bundles/88/js")
+     @Scripts.Render("~/bundles/99/js")
+     @RenderSection("scripts", required: false)
+</body>
+</html>
