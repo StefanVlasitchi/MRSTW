@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lernify.BusinessLogic.DBModel
+namespace Lernify.BusinessLogic.Interfaces
 {
-     internal class Class4
+     internal class Class2
      {
      }
 }
