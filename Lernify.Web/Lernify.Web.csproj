@@ -386,6 +386,9 @@
     </Compile>
     <Compile Include="Models\Class1.cs" />
     <Compile Include="Models\Class2.cs" />
+    <Compile Include="Models\Class3.cs" />
+    <Compile Include="Models\Class4.cs" />
+    <Compile Include="Models\ReviewModel.cs" />
     <Compile Include="Models\UserData.cs" />
     <Compile Include="Models\UserLogin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
