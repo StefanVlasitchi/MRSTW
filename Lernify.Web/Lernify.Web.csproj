@@ -469,6 +469,8 @@
     <Content Include="Views\Review\Reviews.cshtml" />
     <Content Include="Views\Register\Index.cshtml" />
     <Content Include="Views\Cart\Index.cshtml" />
+    <Content Include="Views\Teacher\Index.cshtml" />
+    <Content Include="Views\Teacher\TeacherDetails.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
