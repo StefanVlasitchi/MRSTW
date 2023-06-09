@@ -7,6 +7,7 @@ using AutoMapper;
 using Lernify.BusinessLogic.DBModel;
 using Lernify.Domain.Entities.Course;
 using Lernify.Domain.Entities.Enroll;
+using Lernify.Domain.Entities.Review;
 using Lernify.Domain.Entities.Teacher;
 using Lernify.Domain.Entities.User;
 using Lernify.Helpers;

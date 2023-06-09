@@ -1,12 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Lernify.Domain.Entities.User;
+using System.Data.Entity;
 
 namespace Lernify.BusinessLogic.DBModel
 {
-     internal class UserContext
+     public class UserContext : DbContext
      {
+          public UserContext() : base("name=Lernify")
+          {
+
+          }
+          public virtual DbSet<UDbTable> Users { get; set; }
      }
 }
