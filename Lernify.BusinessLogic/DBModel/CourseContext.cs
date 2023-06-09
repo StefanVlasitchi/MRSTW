@@ -14,6 +14,6 @@ namespace Lernify.BusinessLogic.DBModel
           }
 
           public virtual DbSet<CDbTable> Courses { get; set; }
-          
+          public virtual DbSet<EDbTable> Enroll { get; set; }
      }
 }
