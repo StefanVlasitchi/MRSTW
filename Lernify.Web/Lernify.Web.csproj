@@ -379,7 +379,6 @@
     <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\CartController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\MainController.cs" />
     <Compile Include="Filters\AdminModAttributes.cs" />
     <Compile Include="Filters\AuthenticatedAttribute.cs" />
     <Compile Include="Global.asax.cs">
