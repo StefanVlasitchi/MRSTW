@@ -69,7 +69,7 @@
     <Compile Include="Implementation\ReviewBL.cs" />
     <Compile Include="Implementation\UserBL.cs" />
     <Compile Include="Implementation\SessionBL.cs" />
-    <Compile Include="Interfaces\Class1.cs" />
+    <Compile Include="Interfaces\IEnrolledCourses.cs" />
     <Compile Include="Interfaces\ICourse.cs" />
     <Compile Include="Interfaces\IUser.cs" />
     <Compile Include="Interfaces\ITeacher.cs" />
