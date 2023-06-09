@@ -381,6 +381,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\RegisterController.cs" />
     <Compile Include="Controllers\ReviewController.cs" />
+    <Compile Include="Controllers\TeacherController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Filters\AdminModAttributes.cs" />
     <Compile Include="Filters\AuthenticatedAttribute.cs" />
@@ -472,6 +473,8 @@
     <Content Include="Views\Teacher\Index.cshtml" />
     <Content Include="Views\Teacher\TeacherDetails.cshtml" />
     <Content Include="Views\Teacher\Create.cshtml" />
+    <Content Include="Views\Teacher\Delete.cshtml" />
+    <Content Include="Views\Teacher\Edit.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
