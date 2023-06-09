@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\Courses\CDbTable.cs" />
+    <Compile Include="Entities\Courses\Course.cs" />
     <Compile Include="Entities\Review\RDbTable.cs" />
     <Compile Include="Entities\Review\Review.cs" />
     <Compile Include="Entities\Teacher\Teacher.cs" />
@@ -53,7 +55,7 @@
     <Compile Include="Entities\User\Class4.cs" />
     <Compile Include="Entities\User\Class5.cs" />
     <Compile Include="Entities\User\Class6.cs" />
-    <Compile Include="Enums\Class1.cs" />
+    <Compile Include="Enums\TRole.cs" />
     <Compile Include="Enums\URole.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

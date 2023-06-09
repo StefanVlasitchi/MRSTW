@@ -5,7 +5,7 @@ using System.Web;
 
 namespace Lernify.Web.Models
 {
-     public class Class2
+     public class CourseModel
      {
      }
 }
