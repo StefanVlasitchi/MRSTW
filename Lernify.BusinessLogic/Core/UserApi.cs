@@ -10,7 +10,7 @@ using System;
 using System.Web;
 using System.Collections.Generic;
 using Lernify.Domain.Entities.Review;
-using static System.Collections.Specialized.BitVector32;
+using Lernify.Domain.Entities.Teacher;
 
 namespace Lernify.BusinessLogic.Core
 {
@@ -117,7 +117,7 @@ namespace Lernify.BusinessLogic.Core
 
                using (var db = new SessionContext())
                {
-                    SessionContext curent;
+                    Session curent;
                     var validate = new EmailAddressAttribute();
                     if (validate.IsValid(loginCredential))
                     {
@@ -140,7 +140,7 @@ namespace Lernify.BusinessLogic.Core
                     }
                     else //Insert
                     {
-                         db.Sessions.Add(new SessionContext
+                         db.Sessions.Add(new Session
                          {
                               Username = loginCredential,
                               CookieString = apiCookie.Value,
@@ -155,7 +155,7 @@ namespace Lernify.BusinessLogic.Core
 
           internal UserMinimal UserCookie(string cookie)
           {
-               SessionContext session;
+               Session session;
                UDbTable curentUser;
 
                using (var db = new SessionContext())
