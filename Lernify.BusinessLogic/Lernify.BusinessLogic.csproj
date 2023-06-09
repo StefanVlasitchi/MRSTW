@@ -64,7 +64,7 @@
     <Compile Include="DBModel\ReviewContext.cs" />
     <Compile Include="DBModel\SessionContext.cs" />
     <Compile Include="Implementation\CourseBL.cs" />
-    <Compile Include="Implementation\Class2.cs" />
+    <Compile Include="Implementation\EnrollCourses.cs" />
     <Compile Include="Implementation\TeacherBL.cs" />
     <Compile Include="Implementation\ReviewBL.cs" />
     <Compile Include="Implementation\UserBL.cs" />

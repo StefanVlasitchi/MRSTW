@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Data.Entity;
-using System.Runtime.Remoting.Contexts;
+﻿using System.Data.Entity;
 using Lernify.Domain.Entities.Review;
 
 namespace Lernify.BusinessLogic.DBModel
@@ -15,3 +13,4 @@ namespace Lernify.BusinessLogic.DBModel
           public virtual DbSet<RDbTable> Reviews { get; set; }
 
      }
+}

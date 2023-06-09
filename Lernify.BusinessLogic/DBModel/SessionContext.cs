@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Data.Entity;
-using System.Runtime.Remoting.Contexts;
+﻿using System.Data.Entity;
 using Lernify.Domain.Entities.User;
 
 namespace Lernify.BusinessLogic.DBModel
