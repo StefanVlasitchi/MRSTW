@@ -44,6 +44,9 @@
     <Compile Include="BusinessLogic.cs" />
     <Compile Include="Core\AdminApics.cs" />
     <Compile Include="Core\UserApi.cs" />
+    <Compile Include="DBModel\SessionContext.cs" />
+    <Compile Include="Implementation\SessionBL.cs" />
+    <Compile Include="Interfaces\ISessio.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -56,10 +59,6 @@
       <Name>Lernify.Helpers</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="DBModel\" />
-    <Folder Include="Implementation\" />
-    <Folder Include="Interfaces\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

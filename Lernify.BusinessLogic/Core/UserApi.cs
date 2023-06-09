@@ -117,7 +117,7 @@ namespace Lernify.BusinessLogic.Core
 
                using (var db = new SessionContext())
                {
-                    Session curent;
+                    SessionContext curent;
                     var validate = new EmailAddressAttribute();
                     if (validate.IsValid(loginCredential))
                     {
@@ -140,7 +140,7 @@ namespace Lernify.BusinessLogic.Core
                     }
                     else //Insert
                     {
-                         db.Sessions.Add(new Session
+                         db.Sessions.Add(new SessionContext
                          {
                               Username = loginCredential,
                               CookieString = apiCookie.Value,
@@ -155,7 +155,7 @@ namespace Lernify.BusinessLogic.Core
 
           internal UserMinimal UserCookie(string cookie)
           {
-               Session session;
+               SessionContext session;
                UDbTable curentUser;
 
                using (var db = new SessionContext())
