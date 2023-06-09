@@ -21,7 +21,7 @@ namespace Lernify.BusinessLogic
                return new UserBL();
           }
 
-          public ITeacher GetTeacherBL()
+          public TeacherBL GetTeacherBL()
           {
                return new TeacherBL();
           }
