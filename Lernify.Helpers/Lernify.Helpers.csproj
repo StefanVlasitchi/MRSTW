@@ -44,7 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CookieGenerator.cs" />
-    <Compile Include="Class2.cs" />
+    <Compile Include="MappingHelper.cs" />
     <Compile Include="LoginHelpers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

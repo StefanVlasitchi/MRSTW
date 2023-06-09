@@ -58,7 +58,7 @@
     <Compile Include="Implementation\SessionBL.cs" />
     <Compile Include="Interfaces\Class1.cs" />
     <Compile Include="Interfaces\Class2.cs" />
-    <Compile Include="Interfaces\Class3.cs" />
+    <Compile Include="Interfaces\IUser.cs" />
     <Compile Include="Interfaces\ITeacher.cs" />
     <Compile Include="Interfaces\IReview.cs" />
     <Compile Include="Interfaces\ISession.cs" />
