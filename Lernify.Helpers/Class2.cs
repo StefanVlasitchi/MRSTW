@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lernify.Helpers
 {
-    public class Class1
-    {
-    }
+     internal class Class2
+     {
+     }
 }
