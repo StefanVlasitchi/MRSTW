@@ -1,12 +1,38 @@
-﻿using System;
+﻿using Lernify.BusinessLogic.Implementation;
+using Lernify.BusinessLogic.Interfaces;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Lernify.BusinessLogic
 {
-     internal class BusinessLogic
+     public class BusinessLogic
      {
+          public ISession GetSessionBL()
+          {
+               return new SessionBL();
+          }
+
+          public ICourse GetCourseBL()
+          {
+               return new CourseBL();
+          }
+
+          public IUser GetUserBL()
+          {
+               return new UserBL();
+          }
+
+          public ITeacher GetTeacherBL()
+          {
+               return new TeacherBL();
+          }
+
+          public IReview GetReviewBL()
+          {
+               return new ReviewBL();
+          }
+          public IEnrollCourses GetEnrollCoursesBl()
+          {
+               return new EnrollCoursesBL();
+          }
      }
 }
