@@ -379,6 +379,7 @@
     <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\CartController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ReviewController.cs" />
     <Compile Include="Filters\AdminModAttributes.cs" />
     <Compile Include="Filters\AuthenticatedAttribute.cs" />
     <Compile Include="Global.asax.cs">
@@ -463,6 +464,7 @@
     <Content Include="Views\User\Index.cshtml" />
     <Content Include="Views\Login\Index.cshtml" />
     <Content Include="Views\Review\Index.cshtml" />
+    <Content Include="Views\Review\Reviews.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
