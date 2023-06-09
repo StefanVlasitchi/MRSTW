@@ -45,6 +45,8 @@
   <ItemGroup>
     <Compile Include="Entities\Review\RDbTable.cs" />
     <Compile Include="Entities\Review\Review.cs" />
+    <Compile Include="Entities\Teacher\Teacher.cs" />
+    <Compile Include="Entities\Teacher\TDbTable.cs" />
     <Compile Include="Entities\User\Session.cs" />
     <Compile Include="Entities\User\UserMinimal.cs" />
     <Compile Include="Entities\User\Class3.cs" />
