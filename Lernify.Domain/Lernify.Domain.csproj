@@ -45,6 +45,8 @@
   <ItemGroup>
     <Compile Include="Entities\Courses\CDbTable.cs" />
     <Compile Include="Entities\Courses\Course.cs" />
+    <Compile Include="Entities\Enroll\EDbTable.cs" />
+    <Compile Include="Entities\Enroll\Enroll.cs" />
     <Compile Include="Entities\Review\RDbTable.cs" />
     <Compile Include="Entities\Review\Review.cs" />
     <Compile Include="Entities\Teacher\Teacher.cs" />
