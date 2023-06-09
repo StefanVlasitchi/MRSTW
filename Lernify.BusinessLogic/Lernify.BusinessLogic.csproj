@@ -43,19 +43,24 @@
   <ItemGroup>
     <Compile Include="BusinessLogic.cs" />
     <Compile Include="Core\AdminApics.cs" />
-    <Compile Include="Core\Class1.cs" />
+    <Compile Include="Core\ProductApi.cs" />
     <Compile Include="Core\UserApi.cs" />
     <Compile Include="DBModel\Class1.cs" />
     <Compile Include="DBModel\Class2.cs" />
     <Compile Include="DBModel\Class3.cs" />
-    <Compile Include="DBModel\Class4.cs" />
+    <Compile Include="DBModel\ReviewContext.cs" />
     <Compile Include="DBModel\SessionContext.cs" />
     <Compile Include="Implementation\Class1.cs" />
     <Compile Include="Implementation\Class2.cs" />
     <Compile Include="Implementation\Class3.cs" />
-    <Compile Include="Implementation\Class4.cs" />
+    <Compile Include="Implementation\ReviewBL.cs" />
     <Compile Include="Implementation\UserBL.cs" />
     <Compile Include="Implementation\SessionBL.cs" />
+    <Compile Include="Interfaces\Class1.cs" />
+    <Compile Include="Interfaces\Class2.cs" />
+    <Compile Include="Interfaces\Class3.cs" />
+    <Compile Include="Interfaces\Class4.cs" />
+    <Compile Include="Interfaces\IReview.cs" />
     <Compile Include="Interfaces\ISession.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
