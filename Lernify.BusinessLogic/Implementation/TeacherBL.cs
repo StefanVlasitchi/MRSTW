@@ -1,7 +1,4 @@
-﻿using Lernify.BusinessLogic.Core;
-using System.Collections.Generic;
-
-sing System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Lernify.BusinessLogic.Core;
 using Lernify.BusinessLogic.Interfaces;
 using Lernify.Domain.Entities.Teacher;

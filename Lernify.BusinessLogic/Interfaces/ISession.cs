@@ -1,5 +1,6 @@
 ﻿using System.Web;
 using Lernify.Domain.Entities.User;
+using RestSharp;
 
 namespace Lernify.BusinessLogic.Interfaces
 {

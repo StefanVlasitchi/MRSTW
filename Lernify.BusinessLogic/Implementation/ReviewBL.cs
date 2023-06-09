@@ -9,7 +9,7 @@ namespace Lernify.BusinessLogic.Implementation
      {
           public void AddReview(Review review)
           {
-               //SendToMail();
+               
                AddNewReview(review);
           }
 

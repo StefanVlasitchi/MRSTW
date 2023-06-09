@@ -1,26 +1,12 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace Lernify.Web.Models
+﻿namespace Lernify.Domain.Enums
 {
-     public class CourseModel
-
+     public enum TRole
      {
-          public int Id { get; set; }
-          [Required]
-          public string Name { get; set; }
-          [Required]
-          public string ImageUrl { get; set; } //
-          [Required]
-          public string Teacher { get; set; }
-          [Required]
-          //Numarul de ore
-          public string Lectures { get; set; }
-          [Required]
-          public string Language { get; set; }
-          [Required]
-          public string Description { get; set; }
-          [Required]
-          public double Price { get; set; }
+          Designer,
+          COFounder,
+          WebDeveloper,
+          Engineer,
+          Marketer
 
      }
 }

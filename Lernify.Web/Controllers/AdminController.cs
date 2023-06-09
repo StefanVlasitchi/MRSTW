@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.Sockets;
-using System.Web;
+﻿using System.Collections.Generic;
 using System.Web.Mvc;
 using AutoMapper;
 using Lernify.BusinessLogic.Interfaces;
 using Lernify.Domain.Entities.Enroll;
 using Lernify.Domain.Entities.User;
-using Lernify.Helpers;
 using Lernify.Web.Filters;
 using Lernify.Web.Models;
 

@@ -385,6 +385,7 @@
     <Compile Include="Controllers\ReviewController.cs" />
     <Compile Include="Controllers\TeacherController.cs" />
     <Compile Include="Controllers\UserController.cs" />
+    <Compile Include="Extension\HttpContextExtensions.cs" />
     <Compile Include="Filters\AdminModAttributes.cs" />
     <Compile Include="Filters\AuthenticatedAttribute.cs" />
     <Compile Include="Global.asax.cs">
@@ -505,6 +506,10 @@
     <ProjectReference Include="..\Lernify.Domain\Lernify.Domain.csproj">
       <Project>{2ee352e1-6637-464d-9de4-17d5c1357060}</Project>
       <Name>Lernify.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lernify.Helpers\Lernify.Helpers.csproj">
+      <Project>{B49B21A4-0572-4AD5-B69D-BCCBF3D02C56}</Project>
+      <Name>Lernify.Helpers</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
