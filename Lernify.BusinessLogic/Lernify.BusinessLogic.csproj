@@ -54,7 +54,7 @@
     <Compile Include="Implementation\Class2.cs" />
     <Compile Include="Implementation\Class3.cs" />
     <Compile Include="Implementation\Class4.cs" />
-    <Compile Include="Implementation\Class5.cs" />
+    <Compile Include="Implementation\UserBL.cs" />
     <Compile Include="Implementation\SessionBL.cs" />
     <Compile Include="Interfaces\ISession.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
