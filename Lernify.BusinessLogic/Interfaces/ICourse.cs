@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lernify.BusinessLogic.Interfaces
 {
-     internal class Class2
+     internal class ICourse
      {
      }
 }
