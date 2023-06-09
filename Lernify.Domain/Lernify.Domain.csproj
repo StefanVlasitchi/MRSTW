@@ -33,6 +33,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -41,7 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Entities\Review\RDbTable.cs" />
+    <Compile Include="Entities\Review\Review.cs" />
+    <Compile Include="Entities\Teacher\Teacher.cs" />
+    <Compile Include="Entities\Teacher\TDbTable.cs" />
+    <Compile Include="Entities\User\Session.cs" />
+    <Compile Include="Entities\User\UserMinimal.cs" />
+    <Compile Include="Entities\User\Class3.cs" />
+    <Compile Include="Entities\User\Class4.cs" />
+    <Compile Include="Entities\User\Class5.cs" />
+    <Compile Include="Entities\User\Class6.cs" />
+    <Compile Include="Enums\Class1.cs" />
+    <Compile Include="Enums\URole.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

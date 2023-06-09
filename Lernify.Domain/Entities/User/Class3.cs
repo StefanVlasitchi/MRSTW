@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lernify.Helpers
+namespace Lernify.Domain.Entities.User
 {
-    public class Class1
-    {
-    }
+     internal class Class3
+     {
+     }
 }
