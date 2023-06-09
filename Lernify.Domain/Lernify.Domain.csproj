@@ -41,6 +41,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\User\Session.cs" />
+    <Compile Include="Entities\User\UserMinimal.cs" />
+    <Compile Include="Entities\User\Class3.cs" />
+    <Compile Include="Entities\User\Class4.cs" />
+    <Compile Include="Entities\User\Class5.cs" />
+    <Compile Include="Entities\User\Class6.cs" />
+    <Compile Include="Enums\Class1.cs" />
     <Compile Include="Enums\URole.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
